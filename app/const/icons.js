@@ -10,9 +10,9 @@ const icons={
         </svg>
     ),
     person:(
-        <svg className="w-32 h-32 text-gray-700 mb-4" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-        </svg>
+        <svg className="w-32 h-32 mb-4" fill="#000000" viewBox="0 0 24 24">
+  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+</svg>
     ),
     bottom_add:(
         <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -21,9 +21,9 @@ const icons={
         </svg>
     ),
     outfit:(
-        <svg className="w-32 h-32 text-gray-700 mb-4" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M6 2l6 4.5L18 2v7l-6 4.5L6 9V2zm6 6.5L16.5 6 12 3.5 7.5 6l4.5 2.5zM2.5 13.5c.28 0 .5.22.5.5v8c0 .28-.22.5-.5.5s-.5-.22-.5-.5v-8c0-.28.22-.5.5-.5zm19 0c.28 0 .5.22.5.5v8c0 .28-.22.5-.5.5s-.5-.22-.5-.5v-8c0-.28.22-.5.5-.5zM6 14v8h12v-8l-6 3-6-3z"/>
-        </svg>
+      <svg className="w-32 h-32" fill="none" stroke="black" strokeWidth={2} viewBox="0 0 32 32">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V9c0-1.8 1.6-3.3 3.5-3 1.2.2 2.2 1.2 2.4 2.4.2 1.4-.4 2.6-1.5 3.2-.9.5-1.4 1.6-1.4 2.6v0c0 1.1.6 2.1 1.5 2.7l10.6 5.2c1 .5.6 1.9-.4 1.9H4.2c-1.1 0-1.4-1.4-.4-1.9L16 16" />
+</svg>
     ),
     right_arrow:(
         <svg 
@@ -33,6 +33,11 @@ const icons={
         viewBox="0 0 24 24"
         >
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+    ),
+    menu:(
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
     )
 }

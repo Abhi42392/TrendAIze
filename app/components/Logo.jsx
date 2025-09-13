@@ -7,8 +7,8 @@ const montserrat = Montserrat({
 });
 const Logo = () => {
     return (
-        <h1 className={`${montserrat.className} text-3xl  tracking-widest`}>
-        Trend<span className="text-4xl font-bold">AI</span>z
+        <h1 className={`${montserrat.className} max-sm:text-xl text-3xl  tracking-widest`}>
+            TR<span className="max-sm:text-2xl text-4xl font-black">AI</span>L ROOM
         </h1>
     )
 }

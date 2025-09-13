@@ -31,7 +31,7 @@ const Hero = () => {
  }
 
  return (
-   <div className="lg:min-h-[90vh] pt-[10vh] w-full">
+   <div className="h-[100vh] w-full pt-[min(200px,8vh)]">
      <div className="grid grid-cols-2 max-sm:gap-x-2 max-lg:gap-6 max-sm:gap-y-6 lg:flex lg:justify-between lg:items-center w-full">
        {/* Person icon with add button */}
        {/* if no image is selected show icons.person else show the selected image it should occupy entire div use person props*/}
@@ -99,7 +99,7 @@ const Hero = () => {
        </div>
      </div>
      
-     <div className='w-full flex justify-center my-6 lg:my-12'>
+     <div className='w-full flex justify-center my-8 lg:my-12'>
        <button className='bg-black text-white active:scale-95 flex items-center gap-3 py-3.5 px-8 text-base font-semibold uppercase tracking-wider rounded-md cursor-pointer transition-all hover:shadow-xl'>
          <span>Try outfit now</span>
          {icons.right_arrow}
