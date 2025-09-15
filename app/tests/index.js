@@ -3,9 +3,7 @@ import fs from "fs";
 import "dotenv/config";
 
 // Initialize client with API key from .env
-const genAI = new GoogleGenAI({
- 
-});
+const genAI = new GoogleGenAI({});
 
 async function main() {
   // Load your base images
